@@ -1,5 +1,5 @@
 # ProjetoFakeNews
-Foi desenvolvido um sistema protótipo, utilizando a linguagem de programação JAVA, capaz de classificar uma mensagem ou texto, utilizando aprendizagem de aprendizagem máquina, mineração de dados e textos.
+Foi desenvolvido um sistema protótipo, utilizando a linguagem de programação JAVA, capaz de classificar uma mensagem ou texto, utilizando aprendizagem de máquina, mineração de dados e textos.
 
 # Classes
 <b>ClassificadorFakeNews</b> - Utilizada para geração do modelo dos algoritmos<br>
