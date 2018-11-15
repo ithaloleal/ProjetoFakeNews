@@ -2,7 +2,7 @@
 Foi desenvolvido um sistema protótipo, utilizando a linguagem de programação JAVA, capaz de classificar uma mensagem ou texto, utilizando aprendizagem de máquina, mineração de dados e textos.
 
 # Classes
-<b>ClassificadorFakeNews</b> - Utilizada para geração do modelo dos algoritmos<br>
+<b>GeracaoModeloAlgoritmos</b> - Utilizada para geração do modelo dos algoritmos<br>
 <b>AvaliacaoClassificador</b> - Utilizada para avaliação do modelo<br>
 <b>ColetaAPI</b> - Utilizado para coleta de tweets<br>
 <b>ConexaoBD</b> - Efetua conexão com BD para gravar tweets capturados<br>
