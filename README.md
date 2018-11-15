@@ -21,5 +21,5 @@ MultilayerPerceptron<br>
 Twitter4j - http://twitter4j.org/en/index.html<br>
 WEKA - https://www.cs.waikato.ac.nz/ml/weka/<br>
 
-# Corpus utilizado (precisa fazer download)
+# Corpus extra utilizado (precisa fazer download)
 https://github.com/roneysco/Fake.br-Corpus
