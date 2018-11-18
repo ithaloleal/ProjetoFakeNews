@@ -67,6 +67,7 @@ public class Classificador {
                 novo.setValue(0, Normalizer.normalize(result.getString("message")
                         .replaceAll("\n", "").replaceAll("'", ""), Normalizer.Form.NFD).replaceAll("[^\\p{ASCII}]", ""));
 
+                //retorna o percentual da nova instancia para cada classe, EX: opiniao 0.3 fato 0.5 fake 0.2
                 double resultadoNb[] = nb.distributionForInstance(novo);
                 double resultadoJ48[] = j48.distributionForInstance(novo);
                 double resultadoJrip[] = jrip.distributionForInstance(novo);
