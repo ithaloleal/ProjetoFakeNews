@@ -43,15 +43,15 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="org.postgresql:postgresql:9.4.1207" level="project" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://C:/Program Files/Weka-3-7/weka.jar!/" />
+          <root url="jar://C:/weka/weka/weka.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="org.postgresql:postgresql:9.4.1207" level="project" />
   </component>
 </module>

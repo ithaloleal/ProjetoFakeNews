@@ -23,9 +23,6 @@ public class Classificador {
     public static void main(String args[]) {
         try {
             File file = new File(ARFF.toString());
-            if (!file.exists()) {
-                file = GeraArquivoArff.geraArquivo();
-            }
 
             ConverterUtils.DataSource ds = null;
             ds = new ConverterUtils.DataSource(new FileInputStream(file));
@@ -58,7 +55,7 @@ public class Classificador {
         ModeloIbk.close();
 
         PreparedStatement cmd = conexaoBD.getCon().prepareStatement("SELECT * FROM twitter a left outer join naivebayes b on b.twitter_id" +
-                " = a.id where class is null limit 100000");
+                " = a.id where class is null limit 10");
         ResultSet result = cmd.executeQuery();
         while (result.next()) {
             try {
