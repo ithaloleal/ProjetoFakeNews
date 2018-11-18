@@ -4,11 +4,12 @@ Foi desenvolvido um sistema protótipo, utilizando a linguagem de programação 
 # Classes
 <b>GeracaoModeloAlgoritmos</b> - Utilizada para geração do modelo dos algoritmos<br>
 <b>AvaliacaoClassificador</b> - Utilizada para avaliação do modelo<br>
-<b>ColetaAPI</b> - Utilizado para coleta de tweets<br>
+<b>Classificador</b> - Utilizada para classificação de novo registros<br>
+<b>ColetaAPI</b> - Utilizada para coleta de tweets<br>
 <b>ConexaoBD</b> - Efetua conexão com BD para gravar tweets capturados<br>
 <b>Enum</b> - Caminho dos arquivos utilizados<br>
 <b>GeraArquivoArff</b> - Gera arquivo .ARFF utilizado pelo WEKA<br>
-<b>SetarClasse</b> - Utilizado para setar classe manual de um tweet capturado, para posteriormente efetuar treinamento dos algoritimos<br>
+<b>SetarClasse</b> - Utilizada para setar classe manual de um tweet capturado, para posteriormente efetuar treinamento dos algoritimos<br>
 
 # Algoritmos utilizados
 NaiveBayes<br>
