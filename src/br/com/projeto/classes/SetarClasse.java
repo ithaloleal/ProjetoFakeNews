@@ -42,7 +42,7 @@ public class SetarClasse {
                         cmd2.setString(1, "opiniao");
                         continue;
                     case 4:
-                        System.out.println("Deltenado gravação...");
+                        System.out.println("Deletando gravação...");
                         PreparedStatement cmd3 = conexaoBD.getCon().prepareStatement("DELETE FROM twitter  WHEre id_tweet=? and class is null");
                         cmd3.setLong(1, result.getLong("id_tweet"));
                         cmd3.executeUpdate();
